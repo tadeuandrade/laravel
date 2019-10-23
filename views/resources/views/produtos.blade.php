@@ -18,7 +18,7 @@
 
     @else
         <h1>não temos produtos</h1>            
-    @endif
+    @endif 
       
 
     @empty($produtos)

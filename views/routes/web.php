@@ -34,4 +34,5 @@ Route::get('/email/{email}', function($email){
 });
 
 Route::get('/produtos','ProdutoControlador@listar');
+Route::get('/secaoprodutos','Produtr');
 
