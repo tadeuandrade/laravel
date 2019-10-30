@@ -16,6 +16,16 @@
         <h1>Temos varios produtos</h1>
         @endif
 
+
+        @foreach ($produtos as $p)
+            <p>Nome: {{$p}}</p>
+            
+        @endforeach
+
+
+
+
+
     @else
         <h1>não temos produtos</h1>            
     @endif 

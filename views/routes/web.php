@@ -34,5 +34,12 @@ Route::get('/email/{email}', function($email){
 });
 
 Route::get('/produtos','ProdutoControlador@listar');
-Route::get('/secaoprodutos','Produtr');
+Route::get('/secaoprodutos/{palavra}','ProdutoControlador@secaoprodutos');
 
+Route::get('/mostraropcoes','ProdutoControlador@mostrar_opcoes');
+
+Route::get('/opcoes/{opcao}','ProdutoControlador@opcoes');
+
+Route::get('/loop/for/{n}','ProdutoControlador@loopFor');
+
+Route::get('/loop/foreach','ProdutoControlador@loopForeach');
